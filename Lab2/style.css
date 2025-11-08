@@ -59,8 +59,8 @@ section main {
 
 img {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 40px;
+    bottom: 100px;
     left: 0;
     right: 0;
     margin: auto;
@@ -207,5 +207,6 @@ footer {
     justify-content: center;
     text-align: center;
     height: 40px;
+
 
 }
