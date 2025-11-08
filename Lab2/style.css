@@ -185,7 +185,7 @@ button[type="Send"] {
 
 /* BOTTOM TO TOP BUTTON ADJUSTMENTS */
 #btt {
-    position: relative;
+    position: fixed;
     background-color: blue;
     color: white;
     left: 90%;
@@ -210,3 +210,4 @@ footer {
 
 
 }
+
