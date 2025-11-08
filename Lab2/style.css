@@ -1,0 +1,211 @@
+/* BODY STYLING */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(42, 42, 210);
+    position: sticky;
+    align-content: center;
+    color: #f7f9fc;
+
+
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+/* NAV STYLING */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-align: center;
+}
+
+nav a {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    background-color: rgb(64, 64, 224);
+}
+
+/* SECTION STYLING */
+section main {
+    justify-content: center;
+    color: black;
+    background-color: aliceblue;
+}
+
+#about {
+    position: relative;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bio {
+    justify-content: center;
+    text-align: center;
+}
+
+/* Line dividing sections */
+hr {
+    border: 2px solid;
+    width: 100%;
+}
+
+/* PROJECT STYLING */
+.p1 {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.p2 {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p3 {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* TABLE OF SKILLS STYLING */
+.table {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #0077b6;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+th {
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+
+    justify-content: center;
+}
+
+td {
+    border: 1px solid blue;
+    background-color: aliceblue;
+    color: black;
+
+    justify-content: center;
+}
+
+/* FORM STYLING IN A TABLE */
+.formtable {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgb(42, 84, 210);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#formtd {
+    border: 1px solid blue;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+
+input {
+    width: 90%;
+    margin: 3px auto 3px auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    margin: 3px auto 3px auto;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button[type="Send"] {
+
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 3px auto;
+    border: 2px solid #0077b6;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* BOTTOM TO TOP BUTTON ADJUSTMENTS */
+#btt {
+    position: relative;
+    background-color: blue;
+    color: white;
+    left: 90%;
+    bottom: 30px;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#btt:hover {
+    background-color: #6d9ddc;
+}
+
+/* FOOTER STYLING */
+footer {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+
+}

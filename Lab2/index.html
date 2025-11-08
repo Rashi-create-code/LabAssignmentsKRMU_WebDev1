@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--Semantic Tag use-->
+    <header>
+        <h1>Rashi Mangal</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+
+
+        <section class="main">
+            <h2 id="about">About Me</h2>
+            <img src="image.jpg" alt="Photo" title="Photo.jpg" height="200px" width="200px">
+            <article id="bio">
+                <p>I am passionate about learning web development and building creative projects.
+                    Hello! I am Web Development student. This is my personal portfolio website.I made this as an
+                    assignment
+                    and learnt a lot in this process.
+                    I wish to grab more knowledege of this interesting language and look forward to make more wonderful
+                    and
+                    unique websited in future.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h2 id="project">MY PROJECTS</h2>
+            <div id="container">
+                <div class="project p1"><b>Portfolio Website -:</b> This is my portfolio website.</div>
+
+                <div class="project p2"><b>Form -:</b> In form I made an user interactive form.</div>
+
+                <div class="project p3"><b>Birthday Wishing Card -:</b> In this card I made a website using Html to wish
+                    my friend.</div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <hr>
+    <!--Table Formation-->
+    <h2 id="skill">Technical Skills</h2>
+    <table class="table" cellpadding='10' cellspacing='10px'>
+        <thead id="heading">
+            <tr>
+                <th>Skills</th>
+                <th>Level</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>C Language</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>Beginner</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+
+    <!--Form tag Use-->
+    <form>
+        <h2 id="contact">Contact Me</h2>
+        <table class="formtable">
+            <tr>
+                <td id="formtd"><label for="username">Name:</label></td>
+                <td id="formtd"><input type="text" id="username" placeholder="Enter your Name"></td>
+            </tr>
+
+            <tr>
+                <td id="formtd">
+                    <label for="email">E-Mail:</label>
+                </td>
+                <td id="formtd"><input type="email" id="email" placeholder="Enter your E-mail"></td>
+            </tr>
+
+            <tr>
+                <td id="formtd">
+                    <label for="message">Message:</label>
+                </td>
+                <td id="formtd">
+                    <textarea type="text" placeholder="Enter your message" id="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="Send">Send</button>
+                </td>
+            </tr>
+
+        </table>
+        <br><br>
+        <button id="btt">Back to Top</button>
+
+    </form>
+
+    <br>
+
+
+    <!--Footer Tag-->
+    <footer class="footer">
+        Copyright
+    </footer>
+</body>
+
+</html>
