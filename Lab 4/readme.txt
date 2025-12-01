@@ -1,3 +1,9 @@
+#RASHI MANGAL
+#2501730043
+#B.Tech CSE (AI/ML)
+#Section B
+
+
 JavaScript Quiz Game
 
 # Lab Assignment 4  
